@@ -1,0 +1,143 @@
+.main {
+    text-align: center;
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.section {
+    display: inline-block;
+}
+
+.section-one {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 20px;
+    padding: 15px 40px;
+}
+
+.section-one > h3 {
+    opacity: 0.5;
+}
+
+.section-one > p {
+    opacity: 0.7;
+}
+
+.section-two {
+    background-color: white;
+    padding-top: 97px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.section-two > h3 {
+    text-align: left;
+    position: relative;
+    bottom: 85px;
+}
+
+.circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.circle p {
+    opacity: 0.5;
+    font-size: 15px;
+    position: relative;
+    bottom: 35px;
+}
+
+.circle > h1 {
+    font-size: 50px;
+}
+
+.second-p {
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    opacity: 0.5;
+}
+
+.summary {
+    text-align: left;
+}
+
+.reaction {
+    background-color: hsl(0, 100%, 67%);
+    opacity: 0.1;
+    position: relative;
+    bottom: 80px;
+}
+
+.memory {
+    background-color: hsl(39, 100%, 56%);
+    opacity: 0.1;
+    position: relative;
+    bottom: 70px;
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 37%);
+    opacity: 0.1;
+    position: relative;
+    bottom: 60px;
+}
+
+.visual {
+    background-color: hsl(234, 85%, 45%);
+    opacity: 0.1;
+    position: relative;
+    bottom: 50px;
+}
+
+.main > div {
+    display: inline-block;
+}
+
+button {
+    width: 100%;
+    height: 25px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    border-radius:30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border: none;
+}
+
+button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* responsive styles */
+
+@media (max-width: 415px) {
+    
+    .section-one {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        color: white;
+        border-radius: 0 0 20px 20px;
+        display: block;
+        padding: 15px 40px; 
+    }
+
+    .section-one br {
+        display: none;
+    }
+
+    .section-one > h3 {
+        opacity: 0.5;
+        margin-top: 0;
+    }
+    
+}
