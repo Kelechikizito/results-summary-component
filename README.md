@@ -1,3 +1,3 @@
-This project was completed using vanilla html and css.
+This project was completed using only vanilla html and css.
 
-This project didn't utilise frameworks, CSS grid or Css flexbox.
+This project didn't utilise CSS frameworks, CSS grid or CSS flexbox.
